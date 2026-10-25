@@ -3,9 +3,9 @@ pipeline {
     agent any
 
     tools {
-        jdk 'JDK21'
-        maven 'Maven3'
-    }
+    jdk 'JDK1'
+    maven 'MAVEN3'
+}
 
     stages {
         stage('Checkout') {
